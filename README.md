@@ -9,4 +9,8 @@ Nama : Maulia Astuti Suryaningrum
 NPM : 10222052
 Kelas : IF V B
 
+Nama : Aldy Abdu Aziz Muzadilah
+NPM : 10222198
+Kelas : IF V B 
+
 

@@ -13,4 +13,6 @@ Nama : Aldy Abdu Aziz Muzadilah
 NPM : 10222198
 Kelas : IF V B 
 
-
+Nama : Muhammad Faisal Mubarok
+NPM : 10222039
+Kelas : IF V B 

@@ -5,6 +5,7 @@ Nama : Fahmi rohmatulloh
 NPM : 10221004
 Kelas : IF VII B
 
+Alamat : A.H. Nasution Tasikmalaya
 Nama : Maulia Astuti Suryaningrum
 NPM : 10222052
 Kelas : IF V B

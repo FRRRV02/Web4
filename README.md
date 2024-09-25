@@ -16,3 +16,8 @@ Kelas : IF V B
 Nama : Muhammad Faisal Mubarok
 NPM : 10222039
 Kelas : IF V B 
+
+Nama : Norman Hakim
+NPM : 10222051
+Kelas : IF V B
+

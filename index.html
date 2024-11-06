@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arbutus+Slab:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fauna+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fauna+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fauna+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fauna+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fauna+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fauna+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fauna+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="homepages-container">
+        <div class="homepages-homepages">
+          <div class="homepages-frame3"></div>
+          <div class="homepages-frame5">
+            <div class="homepages-frame12">
+              <span class="homepages-text10">PRODI</span>
+              <span class="homepages-text11">BERANDA</span>
+              <span class="homepages-text12">TENTANG KAMI</span>
+              <span class="homepages-text13">BERITA</span>
+              <span class="homepages-text14">CONTACT</span>
+            </div>
+            <span class="homepages-text15">
+              SEKOLAH TINGGI TEKNOLOGI CIPASUNG
+            </span>
+            <span class="homepages-text16">
+              DENGAN 2 PRODI DAN JUGA FASILITAS YANG CUKUP MEMADAI MEMBUAT
+              MAHASISWA DAPAT LEBIH MUDAH BELAJAR TENTANG DUNIA INFORMATIKA
+              MAUPUN TEKNIK INDUSTRI
+            </span>
+          </div>
+          <img
+            alt="Rectangle342217"
+            src="public/external/rectangle342217-dh2-1500w.png"
+            class="homepages-rectangle34"
+          />
+          <div class="homepages-component3">
+            <img
+              alt="Rectangle82217"
+              src="public/external/rectangle82217-6rny-400h.png"
+              class="homepages-rectangle8"
+            />
+            <span class="homepages-text17">FASILITAS</span>
+            <span class="homepages-text18">
+              <span>Kehidupan kampus yang bersih</span>
+              <br />
+              <span>
+                dan asri serta memberi fasilitas terbaik untuk mahasiswa dan
+                juga memiliki peralatan di bidang Informatika dan Teknik
+                Industri yang cukup lengkap dan juga dapat bekerja dengan baik
+              </span>
+            </span>
+            <img
+              alt="homebuilding2217"
+              src="public/external/homebuilding2217-ykjh.svg"
+              class="homepages-homebuilding"
+            />
+            <span class="homepages-text22">Learn More</span>
+          </div>
+          <div class="homepages-component6">
+            <img
+              alt="Rectangle72217"
+              src="public/external/rectangle72217-zhk-400h.png"
+              class="homepages-rectangle7"
+            />
+            <span class="homepages-text23">Learn More</span>
+            <span class="homepages-text24">
+              Sekolah Tinggi Teknologi Cipasung merupakan kampus denganprodi
+              informatika terbaik dan terlengkap di kotawakanda dan juga
+              merupakan salah satu kampus favorit yang juga digemari oleh calon
+              mahasiswa dan juga tempat yang memuaskan
+            </span>
+            <div class="homepages-notesvertical">
+              <div class="homepages-layer51">
+                <img
+                  alt="VectorI221"
+                  src="public/external/vectori221-o3pn.svg"
+                  class="homepages-vector"
+                />
+              </div>
+            </div>
+            <span class="homepages-text25">TENTANG KAMPUS</span>
+          </div>
+          <div class="homepages-component8">
+            <img
+              alt="Rectangle92218"
+              src="public/external/rectangle92218-jeql-400h.png"
+              class="homepages-rectangle9"
+            />
+            <span class="homepages-text26">Learn More</span>
+            <img
+              alt="package2218"
+              src="public/external/package2218-bhb.svg"
+              class="homepages-package"
+            />
+            <span class="homepages-text27">BERITA &amp; EVENT</span>
+            <span class="homepages-text28">
+              <span>Meraih kejuaraan dalam berbagai</span>
+              <br />
+              <span>ajang perlombaan di bidang teknologi</span>
+              <br />
+              <span>Informatika dan Teknik Industri juga</span>
+              <br />
+              <span>menjadikan juara pada tingkat</span>
+              <br />
+              <span>nasional yang dimenangkan oleh mahasiswa</span>
+              <br />
+              <span>di Sekolah Tinggi Teknologi Cipasung</span>
+            </span>
+          </div>
+          <span class="homepages-text40">FASILITAS</span>
+          <span class="homepages-text41">
+            <span>Berikut fasilitas</span>
+            <br />
+            <span>STT CIPASUNG</span>
+          </span>
+          <img
+            alt="arrowright2219"
+            src="public/external/arrowright2219-0l7.svg"
+            class="homepages-arrowright"
+          />
+          <span class="homepages-text45">slider next</span>
+          <div class="homepages-frame2">
+            <img
+              alt="Rectangle132219"
+              src="public/external/rectangle132219-10il-400w.png"
+              class="homepages-rectangle13"
+            />
+            <img
+              alt="Rectangle142219"
+              src="public/external/rectangle142219-ydn-400w.png"
+              class="homepages-rectangle14"
+            />
+            <img
+              alt="Rectangle152219"
+              src="public/external/rectangle152219-ldc-400w.png"
+              class="homepages-rectangle15"
+            />
+            <img
+              alt="Rectangle212219"
+              src="public/external/rectangle212219-ks99-200h.png"
+              class="homepages-rectangle21"
+            />
+            <img
+              alt="Rectangle222220"
+              src="public/external/rectangle222220-b8tg-200h.png"
+              class="homepages-rectangle22"
+            />
+            <span class="homepages-text46">RUANG KELAS</span>
+            <img
+              alt="Rectangle232220"
+              src="public/external/rectangle232220-76g6-200h.png"
+              class="homepages-rectangle23"
+            />
+            <span class="homepages-text47">PERPUSTAKAAN</span>
+            <img
+              alt="Rectangle242220"
+              src="public/external/rectangle242220-pc2i-200h.png"
+              class="homepages-rectangle24"
+            />
+            <span class="homepages-text48">
+              <span>LABORATORIUM</span>
+              <br />
+              <span>KOMPUTER</span>
+            </span>
+            <img
+              alt="Rectangle162220"
+              src="public/external/rectangle162220-enyl-400h.png"
+              class="homepages-rectangle16"
+            />
+            <img
+              alt="Rectangle192220"
+              src="public/external/rectangle192220-h2co-400h.png"
+              class="homepages-rectangle19"
+            />
+            <img
+              alt="Rectangle202220"
+              src="public/external/rectangle202220-nglg-400h.png"
+              class="homepages-rectangle20"
+            />
+            <img
+              alt="Rectangle182220"
+              src="public/external/rectangle182220-sa8-400w.png"
+              class="homepages-rectangle18"
+            />
+            <img
+              alt="Rectangle252221"
+              src="public/external/rectangle252221-zz0q-400w.png"
+              class="homepages-rectangle25"
+            />
+            <span class="homepages-text52">KANTIN</span>
+            <img
+              alt="Rectangle262221"
+              src="public/external/rectangle262221-886h-400w.png"
+              class="homepages-rectangle26"
+            />
+            <span class="homepages-text53">AULA</span>
+            <img
+              alt="Rectangle272221"
+              src="public/external/rectangle272221-acz6-400w.png"
+              class="homepages-rectangle27"
+            />
+            <span class="homepages-text54">MASJID</span>
+            <img
+              alt="Rectangle282221"
+              src="public/external/rectangle282221-3rul-400w.png"
+              class="homepages-rectangle28"
+            />
+            <span class="homepages-text55">LAPANGAN BASKET</span>
+          </div>
+          <div class="homepages-frame4">
+            <span class="homepages-text56">News &amp; Updates</span>
+          </div>
+          <img
+            alt="Rectangle302222"
+            src="public/external/rectangle302222-s4q2-600w.png"
+            class="homepages-rectangle30"
+          />
+          <img
+            alt="Line12222"
+            src="public/external/line12222-i3gs.svg"
+            class="homepages-line1"
+          />
+          <img
+            alt="Line22222"
+            src="public/external/line22222-lqwl.svg"
+            class="homepages-line2"
+          />
+          <span class="homepages-text57">
+            Seminar Kewirausahaan: “Entrepreneurship Acceleration”
+          </span>
+          <img
+            alt="calendar2222"
+            src="public/external/calendar2222-u39s.svg"
+            class="homepages-calendar"
+          />
+          <span class="homepages-text58">06 September 2023</span>
+          <span class="homepages-text59">
+            Sekolah Tinggi Teknologi Cipasung&nbsp;mengadakan acara seminar pada
+            hari Rabu 06 September 2023, dimana acara ini merupakan Salah satu
+            seminar yang menarik perhatian mahasiswa baru adalah seminar
+            kewirausahaan dengan mengusung tema “Entrepreneurship Acceleration”.
+            Seminar ini bertujuan untuk memberikan wawasan mendalam tentang
+            dunia kewirausahaan dan cara mempercepat kesuksesan sebagai seorang
+            entrepreneur di usia muda.
+          </span>
+          <span class="homepages-text60">13 September 2024</span>
+          <span class="homepages-text61">
+            <span>Kegiatan Mahasiswa Setiap Hari Jumat di STT Cipasung</span>
+            <br />
+            <span>Melaksanakan Pengajian Rutin Al-Quran 1 Juz 1 Orang</span>
+          </span>
+          <span class="homepages-text65">06 Otober 2024</span>
+          <span class="homepages-text66">
+            ALUMNI STT CIPASUNG MERAIH PENGHARGAAN SEBAGAI PESERTA DAN CAPSTONE
+            TERBAIK BAPAREKRAF DIGITAL TALENT
+          </span>
+          <span class="homepages-text67">20 April 2024</span>
+          <span class="homepages-text68">
+            Wisuda mahasiswa stt cipasing angkatan 2020
+          </span>
+          <div class="homepages-readmore1"></div>
+          <span class="homepages-text69">load more</span>
+          <div class="homepages-readmore2"></div>
+          <span class="homepages-text70">Load more</span>
+          <img
+            alt="image23158"
+            src="public/external/image23158-xy3o-200h.png"
+            class="homepages-image2"
+          />
+          <img
+            alt="Rectangle322225"
+            src="public/external/rectangle322225-uxsr-200h.png"
+            class="homepages-rectangle32"
+          />
+          <img
+            alt="Rectangle332225"
+            src="public/external/rectangle332225-ij2-200h.png"
+            class="homepages-rectangle33"
+          />
+          <img
+            alt="Rectangle525757"
+            src="public/external/rectangle525757-nt3w-600h.png"
+            class="homepages-rectangle52"
+          />
+          <div class="homepages-frame6">
+            <div class="homepages-group4">
+              <img
+                alt="Rectangle52226"
+                src="public/external/rectangle52226-p6m-200h.png"
+                class="homepages-rectangle51"
+              />
+              <img
+                alt="brandinstagram2226"
+                src="public/external/brandinstagram2226-sbuh.svg"
+                class="homepages-brandinstagram1"
+              />
+              <span class="homepages-text71">STTCIPASUNG</span>
+              <img
+                alt="basicphoneoutline2226"
+                src="public/external/basicphoneoutline2226-gz1l.svg"
+                class="homepages-basicphoneoutline1"
+              />
+              <span class="homepages-text72">(0265) 2550424</span>
+              <img
+                alt="basicmail2227"
+                src="public/external/basicmail2227-4im.svg"
+                class="homepages-basicmail1"
+              />
+              <span class="homepages-text73">sttcipasung.ac.id</span>
+              <div class="homepages-frame7">
+                <img
+                  alt="Rectangle55677"
+                  src="public/external/rectangle55677-6g9u-200h.png"
+                  class="homepages-rectangle53"
+                />
+                <img
+                  alt="brandinstagram5678"
+                  src="public/external/brandinstagram5678-q1i.svg"
+                  class="homepages-brandinstagram2"
+                />
+                <span class="homepages-text74">STT CIPASUNG</span>
+                <img
+                  alt="basicphoneoutline5680"
+                  src="public/external/basicphoneoutline5680-f5c9.svg"
+                  class="homepages-basicphoneoutline2"
+                />
+                <span class="homepages-text75">(0265) 2550424</span>
+                <img
+                  alt="basicmail5682"
+                  src="public/external/basicmail5682-oluv.svg"
+                  class="homepages-basicmail2"
+                />
+                <span class="homepages-text76">sttcipasung.ac.id</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

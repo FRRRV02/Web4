@@ -35,3 +35,5 @@ Perubahan pada web
 Saya melakukan perubahan
 
 Ini perubahan
+
+Perubahan yang harusnya tidak terpengaruh dengan perubahan branch lain

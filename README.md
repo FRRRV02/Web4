@@ -30,8 +30,7 @@ Kelas : IF V B
 
 Ini adalah contoh changes di README.md
 
-Perubahan pada web
+Demo Github desktop
 
-Saya melakukan perubahan
 
-Ini perubahan
+saya mencoba untuk melakukan demo github desktop

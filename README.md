@@ -1,36 +1,96 @@
-# KELOMPOK 4 PW
+# Laravel Sail
 
-Ini adalah labs pertama untuk mata kuliah pemrograman web
+Silahkan untuk mengikuti langkah-langkah berikut:
+1. Clone repository
+2. Pindah branch ke `feature/laravel`
+3. Buat file `.env` dengan menggunakan template `.env.example`
+```env
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=base64:I/JXeHYQoBbSiaaswMn1p2UEzv7Y4fHG05gCLX4hWeg=
+APP_DEBUG=true
+APP_TIMEZONE=UTC
+APP_URL=http://localhost
 
-Nama : Fahmi rohmatulloh
-NPM : 10221004
-Kelas : IF VII B
+APP_LOCALE=en
+APP_FALLBACK_LOCALE=en
+APP_FAKER_LOCALE=en_US
 
-Alamat : A.H. Nasution Tasikmalaya
-Nama : Maulia Astuti Suryaningrum
-NPM : 10222052
-Kelas : IF V B
+APP_MAINTENANCE_DRIVER=file
+# APP_MAINTENANCE_STORE=database
 
-Nama : Aldy Abdu Aziz Muzadilah
-NPM : 10222198
-Kelas : IF V B
-Alamat : Sariwangi
+PHP_CLI_SERVER_WORKERS=4
 
-Nama : Muhammad Faisal Mubarok
-NPM : 10222039
+BCRYPT_ROUNDS=12
 
-Kelas : IF V B
+LOG_CHANNEL=stack
+LOG_STACK=single
+LOG_DEPRECATIONS_CHANNEL=null
+LOG_LEVEL=debug
 
-Kelas : IF V B 
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=sail
+DB_PASSWORD=password
 
+SESSION_DRIVER=database
+SESSION_LIFETIME=120
+SESSION_ENCRYPT=false
+SESSION_PATH=/
+SESSION_DOMAIN=null
 
-Nama : Norman Hakim
-NPM : 10222051
-Kelas : IF V B
+BROADCAST_CONNECTION=log
+FILESYSTEM_DISK=local
+QUEUE_CONNECTION=database
 
-Ini adalah contoh changes di README.md
+CACHE_STORE=database
+CACHE_PREFIX=
 
-Demo Github desktop
+MEMCACHED_HOST=127.0.0.1
 
+REDIS_CLIENT=phpredis
+REDIS_HOST=redis
+REDIS_PASSWORD=null
+REDIS_PORT=6379
 
-saya mencoba untuk melakukan demo github desktop
+MAIL_MAILER=log
+MAIL_HOST=127.0.0.1
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+AWS_USE_PATH_STYLE_ENDPOINT=false
+
+VITE_APP_NAME="${APP_NAME}"
+
+```
+4. Jalankan perintah berikut:
+    ```bash
+    docker run --rm \
+        -u "$(id -u):$(id -g)" \
+        -v $(pwd):/opt \
+        -w /opt \
+        laravelsail/php81-composer:latest \
+        composer install --ignore-platform-reqs
+    ```
+5. Jalankan perintah berikut jika ada error, kemudian lakukan langkah 3 lagi:*
+    ```bash
+    docker run --rm \
+        -u "$(id -u):$(id -g)" \
+        -v $(pwd):/opt \
+        -w /opt \
+        laravelsail/php81-composer:latest \
+        composer update laravel/sail
+    ```
+6. Jalankan perintah `./vendor/bin/sail ip` untuk membuat container
+7. Buka terminal baru dan jalankan `./vendor/bin/sail artisan migrate` untuk menjalankan migrasi
+

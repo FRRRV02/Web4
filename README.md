@@ -91,6 +91,15 @@ VITE_APP_NAME="${APP_NAME}"
         laravelsail/php81-composer:latest \
         composer update laravel/sail
     ```
-6. Jalankan perintah `./vendor/bin/sail ip` untuk membuat container
+6. Jalankan perintah `./vendor/bin/sail up` untuk membuat container
 7. Buka terminal baru dan jalankan `./vendor/bin/sail artisan migrate` untuk menjalankan migrasi
+
+
+Running Vite (Support CSS and JS)
+
+1. ./vendor/bin/sail npm install
+2. ./vendor/bin/sail npm run dev
+
+Storage Link (For Image and Others)
+1. ./vendor/bin/sail artisan storage:link
 

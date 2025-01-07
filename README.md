@@ -79,7 +79,7 @@ VITE_APP_NAME="${APP_NAME}"
         -u "$(id -u):$(id -g)" \
         -v $(pwd):/opt \
         -w /opt \
-        laravelsail/php81-composer:latest \
+        laravelsail/php84-composer:latest \
         composer install --ignore-platform-reqs
     ```
 5. Jalankan perintah berikut jika ada error, kemudian lakukan langkah 3 lagi:*

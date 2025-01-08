@@ -9,5 +9,6 @@
 <body>
 @include('header.index')
     {{ $slot }}
+    @include('footer.index')
 </body>
 </html>

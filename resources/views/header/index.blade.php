@@ -1,7 +1,6 @@
 <nav class="navbar">
         <div class="logo">
-            <img src="public/external/sttc.png" alt="Logo Kampus" class="logo-img">
-            
+           <img class="logo-img" src="{{url('storage/img/sttc.png')}}" alt="">
         </div>
         <div class="menu-toggle" onclick="toggleMenu()">
             <div></div>

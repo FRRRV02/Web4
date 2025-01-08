@@ -1,6 +1,6 @@
  <x-layout>
  <div class="hero-beranda">
-        <img class="hero-beranda" src="gambar/tq_6om4mzp9xq-eof-800h.png" alt="">
+        <img class="hero-beranda" src="{{url('storage/img/tq_6om4mzp9xq-eof-800h.png')}}" alt="">
     </div>
 
     <div class="content-beranda">
@@ -24,17 +24,17 @@
             <h2 class="judul">fasilitas</h2>
             <div class="grid-beranda">
                 <div class="card-beranda">
-                    <img class="card-img" src="gambar/tq_6om4mzp9xq-eof-800h.png" alt="Program Studi 1">
+                <img class="card-img" src="{{url('storage/img/tq_6om4mzp9xq-eof-800h.png')}}" alt="">
                     <h3 class="h33">Teknik Informatika</h3>
                     <p class="p">Mengembangkan teknologi dan solusi inovatif untuk era digital.</p>
                 </div>
                 <div class="card-beranda">
-                    <img class="card-img" src="gambar/tq_6om4mzp9xq-eof-800h.png" alt="Program Studi 2">
+                <img class="card-img" src="{{url('storage/img/tq_6om4mzp9xq-eof-800h.png')}}" alt="">
                     <h3 class="h33">Manajemen</h3>
                     <p class="p">Belajar mengelola sumber daya dengan efektif dan efisien.</p>
                 </div>
                 <div class="card-beranda">
-                    <img class="card-img" src="gambar/tq_6om4mzp9xq-eof-800h.png" alt="Program Studi 3">
+                <img class="card-img" src="{{url('storage/img/tq_6om4mzp9xq-eof-800h.png')}}" alt="">
                     <h3 class="h33">Desain Komunikasi Visual</h3>
                     <p class="p">Ekspresikan kreativitas melalui desain yang berpengaruh.</p>
                 </div>

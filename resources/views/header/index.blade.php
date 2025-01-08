@@ -8,9 +8,9 @@
             <div></div>
         </div>
         <ul>
-            <li><a href="#">Beranda</a></li>
+            <li><a href="{{ url('/home')}}">Beranda</a></li>
             <li><a href="#">Tentang</a></li>
-            <li><a href="#">Program Studi</a></li>
+            <li><a href="{{ url('/prodi')}}">Program Studi</a></li>
             <li><a href="#">Berita</a></li>
             <li><a href="#">Kontak</a></li>
         </ul>

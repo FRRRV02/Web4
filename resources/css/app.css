@@ -275,3 +275,66 @@ body {
 .button:hover {
     background-color: #0056b3;
 }
+
+.body-prodi {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafc;
+    color: #333;
+}
+
+.header-prodi {
+    background-color: #f9f9fa;
+    color: rgb(8, 8, 8);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-prodi .h11 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.content-prodi {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.program-prodi {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-prodi {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 48%;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-prodi:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-prodi .img-prodi {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-prodi .h22 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card-prodi .ppp {
+    font-size: 1rem;
+    line-height: 1.6;
+}

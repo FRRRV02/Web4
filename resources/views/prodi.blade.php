@@ -1,5 +1,5 @@
-<?php include 'includes/header.php'; ?>
-<?php include 'includes/navbar.php'; ?>
+@include('includes.header')
+@include('includes.navbar')
 
 <div class="container mt-5">
     <h1 class="text-center text-white mb-5">Program Studi</h1>
@@ -31,4 +31,4 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+@include('includes.footer')

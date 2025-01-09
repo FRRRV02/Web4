@@ -1,6 +1,5 @@
-<?php include 'includes/header.php'; ?>
-<?php include 'includes/navbar.php'; ?>
-
+@include('includes.header')
+@include('includes.navbar')
 <div class="container mt-5 text-white">
     <h1>Kontak Kami</h1>
     <form action="submit_kontak.php" method="POST">
@@ -20,4 +19,4 @@
     </form>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+@include('includes.footer')

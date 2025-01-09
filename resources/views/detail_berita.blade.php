@@ -1,5 +1,5 @@
-<?php include 'includes/header.php'; ?>
-<?php include 'includes/navbar.php'; ?>
+@include('includes.header')
+@include('includes.navbar')
 
 <div class="container mt-5 text-white">
     <?php
@@ -39,4 +39,4 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?> 
+@include('includes.footer') 

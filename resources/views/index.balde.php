@@ -1,6 +1,5 @@
-<?php include 'includes/header.php'; ?>
-<?php include 'includes/navbar.php'; ?>
-
+@include('includes.header')
+@include('includes.navbar')
 <div class="container mt-5  text-white">
     <div class="text-center mb-5">
         <h1 class="display-4">Selamat Datang di Website Kampus Cipasung</h1>
@@ -42,4 +41,4 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+@include('includes.footer')

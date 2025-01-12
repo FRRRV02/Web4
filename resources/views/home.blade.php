@@ -4,8 +4,9 @@
     <div class="container">
         <section class="hero-programs text-center py-5">
             <h1>Welcome to STT Cipasung</h1>
-            <p>Empowering future leaders through quality education and innovation.</p>
+            <p>"Teknologi dan Teknik untuk Peradaban Masa Depan</p>
             <a href="/about" class="btn btn-primary">Learn More</a>
+            <a href=""></a>
         </section>
 
         <section class="highlights">

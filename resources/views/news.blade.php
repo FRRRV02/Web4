@@ -13,7 +13,7 @@
             
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/berita1.jpg" class="card-img-top" alt="berita1">
+                    <img src="{{ asset('img/g1.jpg') }}" class="card-img-top" alt="berita1">
                     <div class="card-body">
                         <h3 class="card-title">isian asu</h3>
                         <p class="card-text">
@@ -27,7 +27,7 @@
             
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/berita2.jpg" class="card-img-top" alt="berita3">
+                    <img src="{{ asset('img/g1.jpg') }}" class="card-img-top" alt="berita3">
                     <div class="card-body">
                         <h3 class="card-title">isian brow</h3>
                         <p class="card-text">
@@ -41,7 +41,7 @@
             
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/berita4.jpg" class="card-img-top" alt="berita4">
+                    <img src="{{ asset('img/g1.jpg') }}" class="card-img-top" alt="berita4">
                     <div class="card-body">
                         <h3 class="card-title">isian brow</h3>
                         <p class="card-text">
@@ -55,7 +55,7 @@
             
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/berita5.jpg" class="card-img-top" alt="berita5">
+                    <img src="{{ asset('img/g1.jpg') }}" class="card-img-top" alt="berita5">
                     <div class="card-body">
                         <h3 class="card-title">isian brow</h3>
                         <p class="card-text">
@@ -69,7 +69,7 @@
            
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/berita6.jpg" class="card-img-top" alt="berita6">
+                    <img src="{{ asset('img/g1.jpg') }}" class="card-img-top" alt="berita6">
                     <div class="card-body">
                         <h3 class="card-title">isian brow</h3>
                         <p class="card-text">
@@ -83,7 +83,7 @@
             
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/berita7.jpg" class="card-img-top" alt="berita7">
+                    <img src="{{ asset('img/g1.jpg') }}" class="card-img-top" alt="berita7">
                     <div class="card-body">
                         <h3 class="card-title">isian brow</h3>
                         <p class="card-text">

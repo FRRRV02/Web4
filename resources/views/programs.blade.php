@@ -4,8 +4,8 @@
     <div class="container">
         <!-- Hero Section -->
         <section class="hero-programs text-center py-5">
-            <h2>Our Programs</h2>
-            <p>Explore our top-notch programs designed to shape future leaders and innovators.</p>
+            <h2>Program Studi</h2>
+            <p>Jelajahi program unggulan kami yang dirancang untuk membentuk pemimpin dan inovator masa depan.</p>
         </section>
 
         <!-- Programs Section -->
@@ -13,7 +13,7 @@
             <!-- Program 1 -->
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/teknik-industri.jpg" class="card-img-top" alt="Teknik Industri">
+                    <img src="{{ asset('img/industri.jpg') }}" class="card-img-top" alt="Teknik Industri">
                     <div class="card-body">
                         <h3 class="card-title">Teknik Industri</h3>
                         <p class="card-text">
@@ -27,7 +27,7 @@
             <!-- Program 2 -->
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/informatika.jpg" class="card-img-top" alt="Informatika">
+                    <img src="{{ asset('img/if.jpg') }}" class="card-img-top" alt="Informatika">
                     <div class="card-body">
                         <h3 class="card-title">Informatika</h3>
                         <p class="card-text">
@@ -41,7 +41,7 @@
             <!-- Program 3 -->
             <div class="program-card col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="/images/teknik-elektro.jpg" class="card-img-top" alt="Teknik Elektro">
+                    <img src="{{ asset('img/elektro.jpg') }}" class="card-img-top" alt="Teknik Elektro">
                     <div class="card-body">
                         <h3 class="card-title">Teknik Elektro</h3>
                         <p class="card-text">

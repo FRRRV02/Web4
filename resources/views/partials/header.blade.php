@@ -10,7 +10,7 @@
     <style>
         /* Header Styling */
         header {
-            background-color: #003366;
+            background-color: #006636;
             color: white;
             padding: 10px 0;
         }

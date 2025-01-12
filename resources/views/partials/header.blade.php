@@ -10,7 +10,11 @@
     <style>
         /* Header Styling */
         header {
-            background-color: #003366;
+<<<<<<< HEAD
+            background-color:rgb(40, 131, 78);
+=======
+            background-color: #006636;
+>>>>>>> ea329621c46bc628d25186c4425f424f5a295d58
             color: white;
             padding: 10px 0;
         }
@@ -86,6 +90,7 @@
                 <a href="/news">News</a>
                 <a href="/facilities">Facilities</a>
                 <a href="/contact">Contact</a>
+                <!-- <a href="{{url('/pmb')}}">Pmb</a> -->
             </nav>
             <button class="menu-toggle d-md-none" onclick="toggleMenu()">☰</button>
         </div>

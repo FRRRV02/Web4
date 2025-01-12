@@ -2,7 +2,7 @@
 <body class="body-home">
 <main>
 <div class="image-container">
-    <img class="img-home" src="{{url ('storage/img/image.png')}}" alt="Gambar Contoh">
+    <img class="img-home" src="{{url ('storage/img/image.png')}}" alt="image">
     <div class="text-overlay"><h1>Selamat datang di STT Cipasung</h1>
         <h3>"Teknologi dan Teknik untuk Peradaban Masa Depan"</h3>
     </div>
@@ -22,13 +22,13 @@
                        <button class="btn"><a href="/about">pelajari lebih lanjut</a></button>
                    </div>
                    <div class="card">
-                       <img src="{{ url('storage/img/program.jpg') }}" alt="Program 2">
+                       <img src="{{ url('storage/img/programs.jpg') }}" alt="Program 2">
                        <h3 class="h33">Programs</h3>
-                       <p class="pp">Program studi" adalah istilah yang mengacu pada suatu bidang pendidikan atau jurusan yang ditawarkan oleh institusi pendidikan, seperti universitas, sekolah tinggi, atau politeknik. Program studi biasanya dirancang untuk memberikan pengetahuan, keterampilan, dan kompetensi tertentu kepada mahasiswa di bidang tertentu.</p>
+                       <p class="pp">Program studi adalah istilah yang mengacu pada suatu bidang pendidikan atau jurusan yang ditawarkan oleh institusi pendidikan, seperti universitas, sekolah tinggi, atau politeknik. Program studi biasanya dirancang untuk memberikan pengetahuan, keterampilan, dan kompetensi tertentu kepada mahasiswa di bidang tertentu.</p>
                        <button class="btn"><a href="/programs">pelajari lebih lanjut</a></button>
                    </div>
                    <div class="card">
-                       <img src="{{ url('storage/img/image.png') }}" alt="Program 3">
+                       <img src="{{ url('storage/img/brt1.jpg') }}" alt="Program 3">
                        <h3 class="h33">News</h3>
                        <p>Menyiapkan tenaga profesional untuk pembangunan infrastruktur berkelanjutan.</p>
                        <button class="btn"><a href="/news">pelajari lebih lanjut</a></button>

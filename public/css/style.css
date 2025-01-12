@@ -117,18 +117,17 @@ body {
 
 .program-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    margin: 10px;
-    text-align: center;
-    overflow: hidden;
+    
+        flex: 1 1 calc(33.333% - 20px); 
+        max-width: 32%;
+        box-sizing: border-box; 
+    
 }
 
 .card img {
@@ -162,7 +161,7 @@ body {
 .testimonials h2 {
     font-size: 36px;
     margin-bottom: 30px;
-    color: #222;
+    color: #68756a;
 }
 
 .testimonial-cards {
@@ -173,7 +172,7 @@ body {
 }
 
 .testimonial {
-    background: white;
+    background: rgb(175, 185, 194);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 30%;

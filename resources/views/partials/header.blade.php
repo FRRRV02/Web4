@@ -10,11 +10,10 @@
     <style>
         /* Header Styling */
         header {
-<<<<<<< HEAD
+
             background-color:rgb(40, 131, 78);
-=======
-            background-color: #006636;
->>>>>>> ea329621c46bc628d25186c4425f424f5a295d58
+
+
             color: white;
             padding: 10px 0;
         }

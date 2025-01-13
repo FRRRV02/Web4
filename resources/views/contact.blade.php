@@ -4,7 +4,7 @@
     <div class="container">
         <section class="hero-contact text-center py-5">
             <h2>Contact Us</h2>
-            <p>Reach out to us for any inquiries or assistance you need. We're here to help.</p>
+            <p>Hubungi kami untuk pertanyaan atau bantuan yang Anda butuhkan. Kami di sini untuk membantu.</p>
         </section>
 
         @if(session('success'))

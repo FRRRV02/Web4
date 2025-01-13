@@ -4,8 +4,8 @@
     <div class="container">
         <!-- Hero Section -->
         <section class="hero-programs text-center py-5">
-            <h2>News & Update</h2>
-            <p>Stay informed with the latest news and announcements.</p>
+            <h2>Berita & Pembaruan</h2>
+            <p>Tetap terinformasi dengan berita dan pengumuman terbaru.</p>
         </section>
 
         <!-- Programs Section -->

@@ -3,7 +3,7 @@
 <main>
 <div class="image-container">
     <img class="img-home" src="{{url ('storage/img/image.png')}}" alt="image">
-    <div class="text-overlay"><h1>Selamat datang di STT Cipasung</h1>
+    <div class="text-overlay"><h1>Selamat Datang Di STT Cipasung</h1>
         <h3>"Teknologi dan Teknik untuk Peradaban Masa Depan"</h3>
     </div>
   </div>

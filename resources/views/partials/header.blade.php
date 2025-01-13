@@ -80,7 +80,10 @@
     <header>
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/">STT Cipasung</a>
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <img src="{{ asset('img/logo.png') }}" alt="Logo STT Cipasung" class="me-2" style="width: 40px; height: 40px;">
+                    <span>STT Cipasung</span>
+                </a>
             </div>
             <nav class="nav-links">
                 <a href="/">Home</a>

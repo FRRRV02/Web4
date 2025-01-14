@@ -17,7 +17,11 @@
             color: white;
             padding: 10px 0;
         }
-
+img{
+    display: flex;
+    height: 50px;
+    margin:0px ;
+}
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -80,15 +84,16 @@
     <header>
         <div class="navbar">
             <div class="navbar-brand">
-                <a href="/">STT Cipasung</a>
+                <img src="{{url('storage/img/sttc.png')}}" alt="">
+                <!-- <a href="/">STT Cipasung</a> -->
             </div>
             <nav class="nav-links">
-                <a href="/">Home</a>
-                <a href="/about">About Us</a>
-                <a href="/programs">Programs</a>
-                <a href="/news">News</a>
-                <a href="/facilities">Facilities</a>
-                <a href="/contact">Contact</a>
+                <a href="/">Beranda</a>
+                <a href="/about">Profil</a>
+                <a href="/programs">Program</a>
+                <a href="/news">Berita</a>
+                <a href="/facilities">Fasilitas</a>
+                <a href="/contact">Kontak</a>
                 <!-- <a href="{{url('/pmb')}}">Pmb</a> -->
             </nav>
             <button class="menu-toggle d-md-none" onclick="toggleMenu()">☰</button>

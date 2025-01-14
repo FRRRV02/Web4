@@ -2,8 +2,8 @@
 <main>
     <div class="container">
         <section class="hero-contact text-center py-5">
-            <h2>Contact Us</h2>
-            <p>Reach out to us for any inquiries or assistance you need. We're here to help.</p>
+            <h2>Kontak</h2>
+            <p>Hubungi kami untuk pertanyaan atau bantuan apapun yang anda perlukan. Kami siap membantu.</p>
         </section>
 
         @if(session('success'))
@@ -13,7 +13,7 @@
         <form action="{{ url('/contact') }}" method="POST">
             @csrf
             <div class="form-group">
-                <label for="name">Full Name</label>
+                <label for="name">Nama Lengkap</label>
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
@@ -21,14 +21,14 @@
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="subject">Subject</label>
+                <label for="subject">Subjek</label>
                 <input type="text" id="subject" name="subject" required>
             </div>
             <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message">Pesan</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary">Kirimkan</button>
         </form>
     </div>
 </main>

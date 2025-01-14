@@ -1,30 +1,15 @@
 <?php
+
+use App\Http\Controllers\AboutControler;
+use App\Http\Controllers\HomeControler;
 use Illuminate\Support\Facades\Route;
 
 // Home
-Route::view('/', 'home');
+// Route::view('/', 'home');
 
-// About
-Route::view('/about', 'about');
-
-// Route::get('/pmb', function () {
-//     return view('pmb');
-// });
-
-// Contact
-Route::view('/contact', 'contact');
-
-// Facilities
-Route::view('/facilities', 'facilities');
-
-// News
-Route::view('/news', 'news');
-
-// Programs
-Route::view('/programs', 'programs');
-
-// Privacy Policy
-Route::view('/privacy-policy', 'privacy-policy');
-
-// Terms of Service
-Route::view('/terms-of-service', 'terms-of-service');
+Route::resource('/home', HomeController::class);
+Route::resource('/about', AboutController::class);
+Route::resource('/fasilitas', FasilitasController::class);
+Route::resource('/news', NewsController::class);
+Route::resource('/kontak', KontakController::class);
+Route::resource('/program', ProgramController::class);

@@ -290,6 +290,7 @@ nav a:hover {
 
 .card p {
     font-size: 1rem;
+    text-align: justify;
 }
 
 /* Form Styles */

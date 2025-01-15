@@ -84,19 +84,23 @@ img{
     <header>
         <div class="navbar">
             <div class="navbar-brand">
-
+<<<<<<< HEAD
+                <img src="{{url('storage/img/sttc.png')}}" alt="">
+                <!-- <a href="/">STT Cipasung</a> -->
+=======
                 <a class="navbar-brand d-flex align-items-center" href="/">
                     <img src="{{ asset('img/logo.png') }}" alt="Logo STT Cipasung" class="me-2" style="width: 40px; height: 40px;">
                     <span>STT Cipasung</span>
                 </a>
+>>>>>>> 5f2d1c02cc3e3bb972fe4099a9ef86aa68eb508c
             </div>
             <nav class="nav-links">
-                <a href="/home">Beranda</a>
+                <a href="/">Beranda</a>
                 <a href="/about">Profil</a>
-                <a href="/program">Program</a>
+                <a href="/programs">Program</a>
                 <a href="/news">Berita</a>
-                <a href="/fasilitas">Fasilitas</a>
-                <a href="/kontak">Kontak</a>
+                <a href="/facilities">Fasilitas</a>
+                <a href="/contact">Kontak</a>
                 <!-- <a href="{{url('/pmb')}}">Pmb</a> -->
             </nav>
             <button class="menu-toggle d-md-none" onclick="toggleMenu()">☰</button>

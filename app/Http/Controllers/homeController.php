@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeControler extends Controller
+class homeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -12,7 +12,7 @@ class HomeControler extends Controller
     public function index()
     {
         //
-        return view('home.index');
+        return view("home.index");
     }
 
     /**

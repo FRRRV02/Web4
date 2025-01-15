@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProgramControler extends Controller
+class fasilitasController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -12,6 +12,7 @@ class ProgramControler extends Controller
     public function index()
     {
         //
+        return view("fasilitas.index");
     }
 
     /**

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class KontakControler extends Controller
+class newsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -12,6 +12,7 @@ class KontakControler extends Controller
     public function index()
     {
         //
+        return view("news.index");
     }
 
     /**

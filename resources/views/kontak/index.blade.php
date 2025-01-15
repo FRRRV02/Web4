@@ -1,4 +1,4 @@
-<x-layout>
+@include('partials.header')
 <main>
     <div class="container">
         <section class="hero-contact text-center py-5">
@@ -32,4 +32,4 @@
         </form>
     </div>
 </main>
-</x-layout>
+@include('partials.footer')

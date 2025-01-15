@@ -5,19 +5,18 @@
         <!-- Hero Section -->
         <section class="hero-programs text-center py-5">
             <h2>Tentang STT Cipasung</h2>
-            <p>Empowering students with quality education since its establishment. Discover our values and mission.</p>
         </section>
 
         <!-- Content Sections -->
         <div class="cards">
             <div class="card">
                 <img src="{{ asset('img/g1.jpg') }}" alt="Campus History">
-                <h4>Our History</h4>
+                <h4>Sejarah</h4>
                 <p>Sekolah Tinggi Teknologi Cipasung (STT Cipasung) merupakan lembaga pendidikan tinggi formal di bawah Yayasan Pondok Pesantren Cipasung. Pesantren Cipasung didirikan tahun 1931 oleh almarhum KH. Ruhiat, terletak di Desa Cipakat Kecamatan Singaparna Kabupaten Tasikmalaya, sekitar 100 km dari Kota Bandung.</p>
             </div>
 
             <div class="card">
-                <h4>Mission</h4>
+                <h4>Misi</h4>
                 <p>1. Meningkatkan kualitas pendidikan dan pengajaran yang adil dan akses yang luas
 
                     2. Meningkatkan iklim penelitian yang relevan dengan potensi lokal
@@ -34,13 +33,13 @@
             </div>
 
             <div class="card">
-                <h4>Vision</h4>
+                <h4>Visi</h4>
                 <p>Menjadi Sekolah Tinggi lima besar di Priangan Timur pada tahun 2024 dan unggul di bidang entrepreneurship yang rahmatan lil’alamin.</p>
             </div>
         </div>
 
         <div class="values">
-            <h3>Goals</h3>
+            <h3>Tujuan</h3>
             <ul>
                 <li>  Menghasilkan lulusan yang berkualitas dan siap berkontribusi di lingkungan masyarakat</li>
                 <li> Menghasilkan riset dan karya ilmiah di bidang teknik dan entrepreneurship yang mendorong pengembangan potensi lokal</li>

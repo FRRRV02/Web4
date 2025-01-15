@@ -19,7 +19,7 @@
                         <p class="card-text">
                             Teknik Industri menggabungkan ilmu teknik, manajemen, dan ekonomi untuk meningkatkan efisiensi sistem produksi dan operasi. Cocok bagi Anda yang ingin menjadi problem solver di dunia industri.
                         </p>
-                        <a href="/programs/teknik-industri" class="btn btn-primary">Learn More</a>
+                        <a href="/programs/teknik-industri" class="btn btn-primary">Lebih lanjut</a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                         <p class="card-text">
                             Program Studi Informatika fokus pada pengembangan perangkat lunak, data science, dan kecerdasan buatan. Bergabunglah untuk menjadi inovator teknologi masa depan.
                         </p>
-                        <a href="/programs/informatika" class="btn btn-primary">Learn More</a>
+                        <a href="/programs/informatika" class="btn btn-primary">Lebih lanjut</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                         <p class="card-text">
                             Teknik Elektro membekali Anda dengan pengetahuan tentang teknologi listrik, energi terbarukan, dan sistem kontrol untuk mempersiapkan karier di dunia teknologi modern.
                         </p>
-                        <a href="/programs/teknik-elektro" class="btn btn-primary">Learn More</a>
+                        <a href="/programs/teknik-elektro" class="btn btn-primary">Lebih lanjut</a>
                     </div>
                 </div>
             </div>

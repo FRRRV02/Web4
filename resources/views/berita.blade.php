@@ -19,7 +19,7 @@
                 </div>
             @endforeach
         @else
-            <p class="text-center text-white">Tidak ada berita terbaru.</p>
+            <p class="text-center text-white">Ada berita baru.</p>
         @endif
     </div>
 </div>

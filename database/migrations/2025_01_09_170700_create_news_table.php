@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('title', 255);
             $table->text('content');
+            $table->string('gambar')->nullable();
+            $table->datetime('tanggal_terbit');
             $table->timestamp('created_at')->useCurrent();
         });
     }
